@@ -4,13 +4,13 @@ A Power BI dashboard for analyzing LinkedIn performance using DAX-driven time in
 
 ![](LinkedinAnalyticsDashboard.png)
 
-### Introduction
+## Introduction
 This project presents a LinkedIn Data Analytics Dashboard built using Power BI to analyze personal LinkedIn performance for the year 2025.
 The dashboard focuses on understanding growth in connections, engagement, impressions, and posting activity, especially during the period when I became more consistent on the platform.
 
 The goal of this project is both reflective and analytical, to review past performance, identify trends, and gain insights that can inform better content and engagement strategies going forward.
 
-### About The Dataset
+## About The Dataset
 The dataset used in this project consists of personal LinkedIn activity and performance data covering the period from 2016 to 2025, with a primary focus on 2025. The data captures key metrics such as:
 
 - Connections
@@ -19,14 +19,14 @@ The dataset used in this project consists of personal LinkedIn activity and perf
 - Impressions
 - Posts
 
-### Data Source
+## Data Source
 - **LinkedIn Data Archive**  
   *Settings & Privacy → Data Privacy → Get a copy of your data*
 
 - **Content Performance (Excel Export)**  
   *Profile → Analytics → Post Impressions → Export file*
 
-### Data Preparation & Cleaning
+## Data Preparation & Cleaning
 Before building the dashboard, the raw LinkedIn data was reviewed and prepared to ensure accuracy and consistency for analysis. Key preparation steps included:
 
 - **Data validation**: Checked date fields, numeric columns, and missing values to ensure correctness.
@@ -38,7 +38,7 @@ Before building the dashboard, the raw LinkedIn data was reviewed and prepared t
 - **Data modeling**: Established appropriate relationships between fact tables and the calendar table to support accurate filtering and aggregation.
 - **Formatting and consistency**: Standardized number formats, percentages, and labels to improve readability and interpretation.
 
-### Data Modelling
+## Data Modelling
 
 ![](DataModel.PNG)
 
@@ -57,7 +57,7 @@ The data model follows a star schema design, with a central Calendar table actin
 - **Top Posts (Fact Table)**
   - Stores post-level performance metrics, including impressions and publish dates, used to identify high-performing posts.
 
-### KPIs Summary
+## KPIs Summary
 
 - **Connections – 1,028**
   - +187.2% vs last year (549)
@@ -79,7 +79,7 @@ The data model follows a star schema design, with a central Calendar table actin
  
 Overall, growth was behavior-driven, not algorithm luck. Posting created visibility, visibility created engagement,  engagement created followers, and followers created more impressions.
 
-### Chart Summary
+## Chart Summary
 
 - **Connections Monthly Trend**
   - Gradual increase across months
@@ -101,10 +101,10 @@ Overall, growth was behavior-driven, not algorithm luck. Posting created visibil
     - Post-18 → 6,261 impressions
   - April, July, May also performed decently
 
-### The Story 
+## The Story 
 After years of low activity, consistent posting in 2025 fundamentally changed my LinkedIn performance. With just 14 posts, I achieved over 1,000 new connections, 14,500 impressions, and nearly 500 engagements. Growth accelerated toward Q4, with November emerging as a breakout month for both reach and engagement. The data clearly shows that consistency, not volume, drove visibility, audience growth, and engagement.
 
-### Skills Demonstrated
+## Skills Demonstrated
 - **Excel and Power Query**
   - Data cleaning and validation
   - Handling missing and zero values
@@ -125,7 +125,7 @@ After years of low activity, consistent posting in 2025 fundamentally changed my
   - Designing clear, insight-driven dashboards
   - Highlighting key trends and performance drivers
  
-###  How to Update the Dashboard
+##  How to Update the Dashboard
 1. Replace the LinkedIn export files with updated versions
 2. Open the Power BI file
 3. Refresh data
