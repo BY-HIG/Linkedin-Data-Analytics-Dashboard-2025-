@@ -8,7 +8,7 @@ A Power BI dashboard for analyzing LinkedIn performance using DAX-driven time in
 This project presents a LinkedIn Data Analytics Dashboard built using Power BI to analyze personal LinkedIn performance for the year 2025.
 The dashboard focuses on understanding growth in connections, engagement, impressions, and posting activity, especially during the period when I became more consistent on the platform.
 
-The goal of this project is both reflective and analytical — to review past performance, identify trends, and gain insights that can inform better content and engagement strategies going forward.
+The goal of this project is both reflective and analytical, to review past performance, identify trends, and gain insights that can inform better content and engagement strategies going forward.
 
 ### About The Dataset
 The dataset used in this project consists of personal LinkedIn activity and performance data covering the period from 2016 to 2025, with a primary focus on 2025. The data captures key metrics such as:
